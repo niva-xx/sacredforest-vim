@@ -55,7 +55,7 @@ hi ModeMsg          ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    gui
 
 hi DiffAdd          ctermbg=2    ctermfg=0     cterm=NONE      guibg=#8eaf6b guifg=#3c4c55   gui=NONE
 hi DiffDelete       ctermbg=1    ctermfg=0     cterm=NONE      guibg=#db6c6c guifg=#3c4c55   gui=NONE
-hi DiffChange       ctermbg=0    ctermfg=3     cterm=UNDERLINE guibg=#3c4c55 guifg=#ffbf00   gui=UNDERLINE
+hi DiffChange       ctermbg=0    ctermfg=3     cterm=NONE      guibg=#3c4c55 guifg=#ffbf00   gui=NONE
 hi DiffText         ctermbg=3    ctermfg=0     cterm=NONE      guibg=#ffbf00 guifg=#3c4c55   gui=NONE
 
 hi Pmenu            ctermbg=14   ctermfg=7     cterm=NONE      guibg=#616c72 guifg=#e0d7c3   gui=NONE
