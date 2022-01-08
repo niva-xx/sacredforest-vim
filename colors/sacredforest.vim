@@ -1,5 +1,7 @@
 " VIM COLOR SCHEME
-" Maintainer:   Karolis Koncevicius
+" Last Change:  20220108
+" Maintainer:   NiVa
+" Original Maintainer:   Karolis Koncevicius
 " Inspirations: nova, zenburn
 
 hi clear
@@ -31,27 +33,27 @@ hi SpecialComment   ctermbg=NONE ctermfg=6     cterm=NONE      guibg=NONE    gui
 
 hi LineNr           ctermbg=NONE ctermfg=14    cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi CursorLineNr     ctermbg=NONE ctermfg=11    cterm=NONE      guibg=NONE    guifg=#ddd668   gui=NONE
-hi MatchParen       ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
+hi MatchParen       ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#69aadb   gui=NONE
 hi Conceal          ctermbg=NONE ctermfg=14    cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi SpecialKey       ctermbg=NONE ctermfg=14    cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi ColorColumn      ctermbg=14   ctermfg=NONE  cterm=NONE      guibg=#616c72 guifg=NONE      gui=NONE
 hi SignColumn       ctermbg=14   ctermfg=NONE  cterm=NONE      guibg=#616c72 guifg=NONE      gui=NONE
-hi Folded           ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
-hi FoldColumn       ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
+hi Folded           ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#a1bcc9   gui=NONE
+hi FoldColumn       ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#a1bcc9   gui=NONE
 
 hi Directory        ctermbg=NONE ctermfg=10    cterm=NONE      guibg=NONE    guifg=#94b380   gui=NONE
 hi Underlined       ctermbg=NONE ctermfg=NONE  cterm=UNDERLINE guibg=NONE    guifg=NONE      gui=UNDERLINE
 
-hi Visual           ctermbg=12   ctermfg=0     cterm=NONE      guibg=#7fc1ca guifg=#3c4c55   gui=NONE
+hi Visual           ctermbg=12   ctermfg=0     cterm=NONE      guibg=#69aadb guifg=#3c4c55   gui=NONE
 hi VisualNOS        ctermbg=NONE ctermfg=NONE  cterm=UNDERLINE guibg=NONE    guifg=NONE      gui=UNDERLINE
 hi IncSearch        ctermbg=3    ctermfg=0     cterm=NONE      guibg=#ffbf00 guifg=#3c4c55   gui=NONE
-hi Search           ctermbg=11   ctermfg=0     cterm=NONE      guibg=#ddd668 guifg=#3c4c55   gui=NONE
+hi Search           ctermbg=11   ctermfg=0     cterm=NONE      guibg=#cc9800 guifg=#3c4c55   gui=NONE
 
 hi StatusLine       ctermbg=14   ctermfg=7     cterm=NONE      guibg=#616c72 guifg=#e0d7c3   gui=NONE
 hi StatusLineNC     ctermbg=14   ctermfg=7     cterm=NONE      guibg=#616c72 guifg=#e0d7c3   gui=NONE
 hi VertSplit        ctermbg=NONE ctermfg=14    cterm=NONE      guibg=NONE    guifg=#616c72   gui=NONE
 hi WildMenu         ctermbg=7    ctermfg=14    cterm=NONE      guibg=#e0d7c3 guifg=#616c72   gui=NONE
-hi ModeMsg          ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
+hi ModeMsg          ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#69aadb   gui=NONE
 
 hi DiffAdd          ctermbg=2    ctermfg=0     cterm=NONE      guibg=#8eaf6b guifg=#3c4c55   gui=NONE
 hi DiffDelete       ctermbg=1    ctermfg=0     cterm=NONE      guibg=#db6c6c guifg=#3c4c55   gui=NONE
@@ -70,8 +72,8 @@ hi SpellRare        ctermbg=NONE ctermfg=NONE  cterm=UNDERCURL guibg=NONE    gui
 
 hi ErrorMsg         ctermbg=1    ctermfg=14    cterm=NONE      guibg=#db6c6c guifg=#616c72   gui=NONE
 hi WarningMsg       ctermbg=NONE ctermfg=1     cterm=NONE      guibg=NONE    guifg=#db6c6c   gui=NONE
-hi MoreMsg          ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
-hi Question         ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#7fc1ca   gui=NONE
+hi MoreMsg          ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#69aadb   gui=NONE
+hi Question         ctermbg=NONE ctermfg=12    cterm=NONE      guibg=NONE    guifg=#69aadb   gui=NONE
 
 hi TabLine          ctermbg=14   ctermfg=7     cterm=NONE      guibg=#616c72 guifg=#e0d7c3   gui=NONE
 hi TabLineSel       ctermbg=14   ctermfg=7     cterm=REVERSE   guibg=#616c72 guifg=#e0d7c3   gui=REVERSE
